@@ -1,5 +1,5 @@
-import filter from "./modules/filter";
+import filter from './modules/filter.js'
 
- window.addEventListener("DOMContentLoaded",()=>{
-    filter()
- })
+window.addEventListener('DOMContentLoaded', () => {
+   filter()
+})
