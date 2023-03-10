@@ -1,5 +1,9 @@
 import filter from './modules/filter.js'
+import modalBlock from './modules/modules.js'
 
 window.addEventListener('DOMContentLoaded', () => {
-   filter()
+  filter()
+  modalBlock('.triger-pink', '.form-substrate-pink', '.closeBtn')
+  modalBlock('.triger-red', '.form-substrate-red', '.closeNextBtn')
+  modalBlock('.menu-btn', '.menu', '.closeMenu')
 })
