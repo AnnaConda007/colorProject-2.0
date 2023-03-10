@@ -1,5 +1,5 @@
 import filter from './modules/filter.js'
-import modalBlock from './modules/modules.js'
+import modalBlock from './modules/moduls.js'
 
 window.addEventListener('DOMContentLoaded', () => {
   filter()
