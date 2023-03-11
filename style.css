@@ -131,37 +131,54 @@ h2 {
   justify-content: space-around;
 }
 
-.color-wrap {
+.color-wrap{
   margin-top: 10px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(6, 1fr);
-  justify-items: center;
+display:grid;
+gap: 10px;
+grid-template-columns: repeat(6, 1fr);
+justify-items:center;
 }
 
-.active {
+.active{
   background-color: orange;
 }
 
-.color-wrap div {
+.color-wrap div{
   width: 160px;
   height: 160px;
+
 }
+.color-wrap div img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.more{
+  margin-top: 15px;
+}
+
+.more h2{
+  text-decoration: underline 
+}
+
+
+
 
 .pink-color{
   background-image: url("./img/salute/salute.png");
   background-size: cover  ;
 }
 .blue-color{
-  background-image: url("./img/salute/salute.png");
+  background-image: url("./img/salute/salute2.png");
   background-size: cover  ;
 }
 .yelow-color{
-  background-image: url("./img/salute/salute.png");
+  background-image: url("./img/salute/salute3.png");
   background-size: cover  ;
 }
 .green-color{
-  background-image: url("./img/salute/salute.png");
+  background-image: url("./img/salute/salute4.png");
   background-size: cover  ;
 }
 .pink-color{
@@ -169,11 +186,11 @@ h2 {
   background-size: cover  ;
 }
 .blue-color{
-  background-image: url("./img/salute/salute.png");
+  background-image: url("./img/salute/salute2.png");
   background-size: cover  ;
 }
 .yellow-color{
-  background-image: url("./img/salute/salute.png");
+  background-image: url("./img/salute/salute3.png");
   background-size: cover  ;
 }
 
