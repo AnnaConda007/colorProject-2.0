@@ -147,11 +147,44 @@ h2 {
   width: 160px;
   height: 160px;
 }
-.color-wrap div img {
+
+.pink-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.blue-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.yelow-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.green-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.pink-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.blue-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+.yellow-color{
+  background-image: url("./img/salute/salute.png");
+  background-size: cover  ;
+}
+
+.img-color:hover{
+opacity: 0;
+}
+
+.img-size{
   width: 100%;
   height: 100%;
 }
-
 .more {
   margin-top: 15px;
 }
