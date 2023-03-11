@@ -1,6 +1,6 @@
 const accordion = (btnSelector,textAccordionSelector )=>{
     const accordionBtn = document.querySelectorAll(btnSelector)
-    const accordionText = document.querySelectorAll(textAccordionSelector )
+    const accordionText = document.querySelectorAll(textAccordionSelector)
     
     
     accordionText.forEach(item => {
