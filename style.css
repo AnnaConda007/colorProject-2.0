@@ -55,8 +55,8 @@ header {
 
 li {
   list-style-type: none;
-  margin-left: 20%;
   width: 100%;
+  text-align: center;
 }
 .closeMenu {
   width: 20px;
@@ -115,6 +115,7 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
+
 
 .color-wrap{
   margin-top: 10px;
