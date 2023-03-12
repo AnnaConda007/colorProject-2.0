@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   max-height: 100%;
@@ -20,15 +21,18 @@ a {
   text-decoration: none;
   color: black;
 }
+
 header {
   display: flex;
   justify-content: space-between;
 }
+
 .menu-btn {
   width: 330px;
   height: 30px;
   position: relative;
 }
+
 .menu-btn span {
   width: 30px;
   height: 2px;
@@ -39,9 +43,11 @@ header {
   background-color: #222222;
   transition: all 0.5s;
 }
+
 .menu-btn span:nth-of-type(2) {
   top: calc(50% - 5px);
 }
+
 .menu-btn span:nth-of-type(3) {
   top: calc(50% + 5px);
 }
@@ -55,9 +61,10 @@ header {
 
 li {
   list-style-type: none;
-  margin-left: 20%;
   width: 100%;
+  text-align: center;
 }
+
 .closeMenu {
   width: 20px;
   position: relative;
@@ -89,6 +96,7 @@ li {
   width: 30%;
   background-color: rgb(81, 8, 8);
 }
+
 .closeNextBtn,
 .closeBtn {
   width: 20px;
@@ -96,112 +104,91 @@ li {
   padding-left: 90%;
 }
 
-.slider-wrap {
-  display: flex;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  justify-content: center;
-}
-
-.slider-wrap button {
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-}
-
-.slider-navigation {
-  width: 15px;
-}
-
-.slider-item-wrap {
-  width: 50%;
-  height: 70%;
-}
-.slider-img {
-  width: 100%;
-  height: 100%;
-}
-
 h2 {
   text-align: center;
 }
+
 .container-colors-title ul {
   display: flex;
   justify-content: space-around;
 }
 
-.color-wrap{
+
+.color-wrap {
   margin-top: 10px;
-display:grid;
-gap: 10px;
-grid-template-columns: repeat(6, 1fr);
-justify-items:center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
 }
 
-.active{
+.active {
   background-color: orange;
 }
 
-.color-wrap div{
+.color-wrap div {
   width: 160px;
   height: 160px;
 
 }
-.color-wrap div img{
+
+.color-wrap div img {
   width: 100%;
   height: 100%;
 }
 
-
-.more{
+.more {
   margin-top: 15px;
 }
 
-.more h2{
-  text-decoration: underline 
+.more h2 {
+  text-decoration: underline
 }
 
-
-
-
-.pink-color{
+.pink-color {
   background-image: url("./img/salute/salute.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.blue-color{
+
+.blue-color {
   background-image: url("./img/salute/salute2.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.yelow-color{
+
+.yelow-color {
   background-image: url("./img/salute/salute3.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.green-color{
+
+.green-color {
   background-image: url("./img/salute/salute4.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.pink-color{
+
+.pink-color {
   background-image: url("./img/salute/salute.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.blue-color{
+
+.blue-color {
   background-image: url("./img/salute/salute2.png");
-  background-size: cover  ;
+  background-size: cover;
 }
-.yellow-color{
+
+.yellow-color {
   background-image: url("./img/salute/salute3.png");
-  background-size: cover  ;
+  background-size: cover;
 }
 
-.img-color:hover{
-opacity: 0;
+.img-color:hover {
+  opacity: 0;
 }
 
-.img-size{
+.img-size {
   width: 100%;
   height: 100%;
 }
+
 .more {
   margin-top: 15px;
 }
@@ -227,6 +214,7 @@ h4 {
   margin: 15px;
   text-align: center;
 }
+
 .phone-form input {
   margin: 5px;
 }
@@ -236,7 +224,17 @@ h4 {
   margin-left: 90%;
 }
 
-@media (max-width: 800px) {
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:1300px) {
   .color-wrap {
     grid-template-columns: repeat(3, 1fr);
   }

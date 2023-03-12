@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ColorProject</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -29,31 +30,35 @@
     <h4 class="triger-pink">заказать звонок</h4>
   </header>
   <main>
-    <div class="slider-wrap grid-center ">
-      <button>
-        <img src="img\button-left.png" alt="left" class="slider-navigation" />
-      </button>
-      <div class="slider-item-wrap">
-        <img class="slider-img" src="img\slider\slider_1.png" alt="слайдер" />
+
+    <div class="swiper grid-center">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="slide-img"  src="img\slider\slider_1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img  class="slide-img"  src="img\slider\slider_2.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-img"  src="img\slider\slider_3.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="slide-img"  src="img\slider\slider_4.png" alt="">
+        </div>
       </div>
-      <div class="slider-item-wrap">
-        <img class="slider-img" src="img\slider\slider_2.png" alt="слайдер" />
-      </div>
-      <div class="slider-item-wrap">
-        <img class="slider-img" src="img\slider\slider_3.png" alt="слайдер" />
-      </div>
-      <div class="slider-item-wrap">
-        <img class="slider-img" src="img\slider\slider_4.png" alt="слайдер" />
-      </div>
-      <button>
-        <img src="img\button-right.png" alt="left" class="slider-navigation" />
-      </button>
+      
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
     </div>
+
+ 
+
 
     <section class="filter-colors grid-center">
       <div class="container-colors-title">
         <h2>выбрать цвет</h2>
-        <ul class="title-colors">
+        <ul class="title-colors ">
           <li class="all-collors active">Все цвета</li>
           <li class="pink">розовый</li>
           <li class="blue">синий</li>
@@ -63,26 +68,26 @@
       </div>
 
       <div class="color-wrap">
-        <div class="pink-color" >
-          <img src="img\allColors\pink.png" alt="цвет" class="img-color pink img-size"/>
+        <div class="pink-color">
+          <img src="img\allColors\pink.png" alt="цвет" class="img-color pink img-size" />
         </div>
-        <div  class="blue-color">
+        <div class="blue-color">
           <img src="img\allColors\blue.png" alt="цвет" class="img-color img-size" />
         </div>
-        <div  class="yellow-color">
-          <img src="img\allColors\yellow.png" alt="цвет" class="img-color img-size"/>
+        <div class="yellow-color">
+          <img src="img\allColors\yellow.png" alt="цвет" class="img-color img-size" />
         </div>
         <div class="green-color">
           <img src="img/allColors/green.png" alt="цвет" class="img-color img-size" />
         </div>
-        <div  class="pink-color">
-          <img src="img\allColors\pink2.png" alt="цвет"   class="img-color img-size"/>
+        <div class="pink-color">
+          <img src="img\allColors\pink2.png" alt="цвет" class="img-color img-size" />
         </div>
-        <div  class="blue-color">
+        <div class="blue-color">
           <img src="img\allColors\blue2.png" alt="цвет" class="img-color img-size" />
         </div>
         <div class="yellow-color">
-          <img src="img\allColors\yellow2.png" alt="цвет" class="img-color img-size"  />
+          <img src="img\allColors\yellow2.png" alt="цвет" class="img-color img-size" />
         </div>
 
       </div>
@@ -95,7 +100,7 @@
     <section class="accordion grid-center">
       <h2>Блок с аккордеоном</h2>
       <div class="accordion-item">
-        <h4 class="btn-accordion">первый блок </h4> 
+        <h4 class="btn-accordion">первый блок </h4>
         <div class="text-accordion">
           скрываемый текст скрываемый текст скрываемый текст скрываемый текст скрываемый текст скрываемый текст
           скрываемый текст
@@ -149,7 +154,6 @@
         <button class="button button-order">Получить консультацию</button>
       </form>
       <a href="#" class="btn-up">
-        <img src="img\btnUp.png" alt="наверх">
       </a>
     </section>
   </main>
