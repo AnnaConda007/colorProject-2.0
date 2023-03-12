@@ -224,6 +224,27 @@ h4 {
   margin-left: 90%;
 }
 
+
+
+.swiper {
+  width:95%;
+  height: 300px;
+  background-color: rgb(189, 246, 201);
+
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 800px) {
   .color-wrap {
     grid-template-columns: repeat(3, 1fr);
