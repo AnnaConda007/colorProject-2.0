@@ -10,7 +10,7 @@ const JSON = (btnStlect, wrapSelect)=>{
         const result = await response.json()
        const showResponse = result.slice(startShowCollor,lastShowCollor)
         for(let key in showResponse ){
-          wrap.innerHTML += `<div class="color-item" >
+          wrap.innerHTML += `<div class="color-item ${showResponse[key].prodClass} " >
           <img src=${showResponse[key].src} alt="цвет"  />
          </div>` 
         }
